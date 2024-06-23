@@ -11,11 +11,7 @@ let choosen=document.getElementById('btn').addEventListener('click', function(){
 	async function func(){
 		let result= await Promisehai;
 		
-	    c.innerHTML+=`
-		<p>${result}</p>
-		
-		
-	`;
+	    c.innerHTML+=`<p>${result}</p>`;
       document.getElementById('text').value = ''
 	document.getElementById('delay').value = ''
 	}
